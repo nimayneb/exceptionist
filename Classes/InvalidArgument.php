@@ -14,11 +14,12 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\InvalidityReason;
 
 /**
  *
  */
-class InvalidArgument extends Exception implements InvalidityReason
+class InvalidArgument extends Exception implements InvalidityReason, ArgumentScope
 {
 
 }

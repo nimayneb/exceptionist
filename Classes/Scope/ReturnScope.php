@@ -13,13 +13,9 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-use Exception;
-use JBR\Exceptionist\Reason\InvalidityReason;
-
 /**
  *
  */
-class InvalidAction extends Exception implements InvalidityReason, ActionScope
+interface ReturnScope
 {
-
 }

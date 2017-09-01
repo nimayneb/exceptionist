@@ -16,6 +16,6 @@
 /**
  *
  */
-interface CompatibilityReason
+interface ValueScope
 {
 }

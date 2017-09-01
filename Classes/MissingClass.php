@@ -13,9 +13,13 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+
 /**
  *
  */
-interface DeficiencyReason
+class MissingClass extends Exception implements DeficiencyReason, ClassScope
 {
+
 }

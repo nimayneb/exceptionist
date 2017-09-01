@@ -14,12 +14,12 @@
  */
 
 use Exception;
-use JBR\Exceptionist\Reason\InvalidityReason;
+use JBR\Exceptionist\Reason\DeficiencyReason;
 
 /**
  *
  */
-class InvalidAction extends Exception implements InvalidityReason, ActionScope
+class MissingInterface extends Exception implements DeficiencyReason, InterfaceScope
 {
 
 }

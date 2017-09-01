@@ -14,11 +14,13 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\CompatibilityReason;
+use JBR\Exceptionist\Reason\DeficiencyReason;
 
 /**
  *
  */
-class MissingDependency extends Exception implements DeficiencyReason, CompatibilityReason
+class MissingDependency extends Exception implements DeficiencyReason, CompatibilityReason, DependencyScope
 {
 
 }

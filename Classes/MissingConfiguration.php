@@ -14,11 +14,12 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
 
 /**
  *
  */
-class MissingConfiguration extends Exception implements DeficiencyReason
+class MissingConfiguration extends Exception implements DeficiencyReason, ConfigurationScope
 {
 
 }

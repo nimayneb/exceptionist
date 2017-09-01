@@ -19,7 +19,7 @@ use JBR\Exceptionist\Reason\InvalidityReason;
 /**
  *
  */
-class InvalidAction extends Exception implements InvalidityReason, ActionScope
+class InvalidClass extends Exception implements InvalidityReason, ClassScope
 {
 
 }

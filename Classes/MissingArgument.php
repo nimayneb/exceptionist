@@ -14,11 +14,12 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
 
 /**
  *
  */
-class MissingArgument extends Exception implements DeficiencyReason
+class MissingArgument extends Exception implements DeficiencyReason, ArgumentScope
 {
 
 }

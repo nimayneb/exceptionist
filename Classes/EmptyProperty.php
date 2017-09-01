@@ -14,11 +14,13 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Reason\InvalidityReason;
 
 /**
  *
  */
-class EmptyProperty extends Exception implements InvalidityReason, DeficiencyReason
+class EmptyProperty extends Exception implements InvalidityReason, DeficiencyReason, PropertyScope
 {
 
 }

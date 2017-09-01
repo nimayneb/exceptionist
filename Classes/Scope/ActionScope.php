@@ -13,12 +13,9 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-use Exception;
-
 /**
  *
  */
-class InvalidReturn extends Exception implements InvalidityReason
+interface ActionScope
 {
-
 }

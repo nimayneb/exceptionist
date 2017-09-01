@@ -14,11 +14,12 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\InvalidityReason;
 
 /**
  *
  */
-class EmptyReturn extends Exception implements InvalidityReason, DeficiencyReason
+class InvalidInterface extends Exception implements InvalidityReason
 {
 
 }

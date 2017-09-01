@@ -14,11 +14,12 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
 
 /**
  *
  */
-class MissingAction extends Exception implements DeficiencyReason
+class MissingAction extends Exception implements DeficiencyReason, ActionScope
 {
 
 }
