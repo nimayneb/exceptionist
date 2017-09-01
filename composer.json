@@ -1,0 +1,24 @@
+{
+    "name": "nimayneb/exceptionist",
+    "description": "Exceptionist - Throwing meaningful and semantic exceptions with interfaces",
+    "minimum-stability": "stable",
+
+    "authors": [
+        {
+            "name": "Jan Runte",
+            "email": "github",
+            "homepage": "https://nimayneb.github.io/",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "JBR\\Exceptionist\\": "Classes/"
+        }
+    }
+}
