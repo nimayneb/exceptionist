@@ -15,11 +15,12 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\PropertyScope;
 
 /**
  *
  */
-class MissingClass extends Exception implements DeficiencyReason, ClassScope
+class UnknownProperty extends Exception implements DeficiencyReason, PropertyScope
 {
 
 }

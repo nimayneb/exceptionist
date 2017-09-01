@@ -13,9 +13,15 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use Exception;
+use JBR\Exceptionist\Reason\CompatibilityReason;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\RequirementScope;
+
 /**
  *
  */
-interface InterfaceScope
+class UnknownRequirement extends Exception implements DeficiencyReason, CompatibilityReason, RequirementScope
 {
+
 }

@@ -14,12 +14,13 @@
  */
 
 use Exception;
-use JBR\Exceptionist\Reason\InvalidityReason;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\DefinitionScope;
 
 /**
  *
  */
-class InvalidTrait extends Exception implements InvalidityReason, TraitScope
+class UnknownObject extends Exception implements DeficiencyReason, DefinitionScope
 {
 
 }

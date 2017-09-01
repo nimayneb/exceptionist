@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist\Scope;
+<?php namespace JBR\Exceptionist\Reason;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -16,6 +16,6 @@
 /**
  *
  */
-interface DependencyScope
+interface AbsenceReason
 {
 }

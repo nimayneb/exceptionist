@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist;
+<?php namespace JBR\Exceptionist\Scope;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -13,13 +13,9 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-use Exception;
-use JBR\Exceptionist\Reason\DeficiencyReason;
-
 /**
  *
  */
-class MissingTrait extends Exception implements DeficiencyReason, TraitScope
+interface DefinitionScope
 {
-
 }

@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist\Scope;
+<?php namespace JBR\Exceptionist;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -13,9 +13,13 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use Exception;
+use JBR\Exceptionist\Reason\AbsenceReason;
+
 /**
  *
  */
-interface DependencyScope
+class UnavailableReference extends Exception implements AbsenceReason
 {
+
 }

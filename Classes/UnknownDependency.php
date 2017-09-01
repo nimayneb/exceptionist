@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist\Scope;
+<?php namespace JBR\Exceptionist;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -13,9 +13,15 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use Exception;
+use JBR\Exceptionist\Reason\CompatibilityReason;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\DependencyScope;
+
 /**
  *
  */
-interface DependencyScope
+class UnknownDependency extends Exception implements DeficiencyReason, CompatibilityReason, DependencyScope
 {
+
 }

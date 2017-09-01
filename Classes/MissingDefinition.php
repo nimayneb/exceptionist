@@ -13,9 +13,14 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use Exception;
+use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\DefinitionScope;
+
 /**
  *
  */
-interface TraitScope
+class MissingDefinition extends Exception implements DeficiencyReason, DefinitionScope
 {
+
 }

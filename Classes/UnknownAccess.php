@@ -15,11 +15,12 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\AccessScope;
 
 /**
  *
  */
-class MissingInterface extends Exception implements DeficiencyReason, InterfaceScope
+class UnknownAccess extends Exception implements DeficiencyReason, AccessScope
 {
 
 }
