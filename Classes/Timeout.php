@@ -15,11 +15,12 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\AbsenceReason;
+use JBR\Exceptionist\Scope\RuntimeScope;
 
 /**
  *
  */
-class UnavailableReference extends Exception implements AbsenceReason
+class Timeout extends Exception implements RuntimeScope, AbsenceReason
 {
 
 }
