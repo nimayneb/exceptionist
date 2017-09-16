@@ -16,6 +16,6 @@
 /**
  *
  */
-interface DependencyScope
+interface DefinitionScope
 {
 }

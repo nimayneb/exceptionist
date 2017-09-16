@@ -16,6 +16,7 @@
 use Exception;
 use JBR\Exceptionist\Reason\CompatibilityReason;
 use JBR\Exceptionist\Reason\InvalidityReason;
+use JBR\Exceptionist\Scope\DependencyScope;
 
 /**
  *

@@ -15,11 +15,12 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\InvalidityReason;
+use JBR\Exceptionist\Scope\InterfaceScope;
 
 /**
  *
  */
-class InvalidInterface extends Exception implements InvalidityReason
+class InvalidInterface extends Exception implements InvalidityReason, InterfaceScope
 {
 
 }

@@ -15,6 +15,7 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\DeficiencyReason;
+use JBR\Exceptionist\Scope\PropertyScope;
 
 /**
  *
