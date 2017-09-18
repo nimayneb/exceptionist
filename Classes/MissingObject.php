@@ -15,12 +15,12 @@
 
 use Exception;
 use JBR\Exceptionist\Reason\DeficiencyReason;
-use JBR\Exceptionist\Scope\DefinitionScope;
+use JBR\Exceptionist\Scope\ObjectScope;
 
 /**
  *
  */
-class MissingObject extends Exception implements DeficiencyReason, DefinitionScope
+class MissingObject extends Exception implements DeficiencyReason, ObjectScope
 {
 
 }

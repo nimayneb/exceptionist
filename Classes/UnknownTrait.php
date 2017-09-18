@@ -16,12 +16,12 @@
 use Exception;
 use JBR\Exceptionist\Reason\AbsenceReason;
 use JBR\Exceptionist\Reason\DeficiencyReason;
-use JBR\Exceptionist\Scope\ReferenceScope;
+use JBR\Exceptionist\Scope\TraitScope;
 
 /**
  *
  */
-class UnknownReference extends Exception implements DeficiencyReason, AbsenceReason, ReferenceScope
+class UnknownTrait extends Exception implements DeficiencyReason, AbsenceReason, TraitScope
 {
 
 }

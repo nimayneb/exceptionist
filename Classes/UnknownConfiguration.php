@@ -14,13 +14,14 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\AbsenceReason;
 use JBR\Exceptionist\Reason\DeficiencyReason;
 use JBR\Exceptionist\Scope\ConfigurationScope;
 
 /**
  *
  */
-class UnknownConfiguration extends Exception implements DeficiencyReason, ConfigurationScope
+class UnknownConfiguration extends Exception implements DeficiencyReason, AbsenceReason, ConfigurationScope
 {
 
 }

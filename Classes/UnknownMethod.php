@@ -14,13 +14,14 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\AbsenceReason;
 use JBR\Exceptionist\Reason\DeficiencyReason;
 use JBR\Exceptionist\Scope\MethodScope;
 
 /**
  *
  */
-class UnknownMethod extends Exception implements DeficiencyReason, MethodScope
+class UnknownMethod extends Exception implements DeficiencyReason, AbsenceReason, MethodScope
 {
 
 }

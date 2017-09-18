@@ -14,13 +14,14 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\AbsenceReason;
 use JBR\Exceptionist\Reason\DeficiencyReason;
 use JBR\Exceptionist\Scope\PropertyScope;
 
 /**
  *
  */
-class UnknownProperty extends Exception implements DeficiencyReason, PropertyScope
+class UnknownProperty extends Exception implements DeficiencyReason, AbsenceReason, PropertyScope
 {
 
 }

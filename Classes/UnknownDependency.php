@@ -14,6 +14,7 @@
  */
 
 use Exception;
+use JBR\Exceptionist\Reason\AbsenceReason;
 use JBR\Exceptionist\Reason\CompatibilityReason;
 use JBR\Exceptionist\Reason\DeficiencyReason;
 use JBR\Exceptionist\Scope\DependencyScope;
@@ -21,7 +22,7 @@ use JBR\Exceptionist\Scope\DependencyScope;
 /**
  *
  */
-class UnknownDependency extends Exception implements DeficiencyReason, CompatibilityReason, DependencyScope
+class UnknownDependency extends Exception implements DeficiencyReason, AbsenceReason, CompatibilityReason, DependencyScope
 {
 
 }
