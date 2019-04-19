@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist\Reason;
+<?php namespace JayBeeR\Exceptionist\Reason;
 
 /*
  * This file is part of the TYPO3 CMS project.

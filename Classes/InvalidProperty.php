@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist;
+<?php namespace JayBeeR\Exceptionist;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -14,8 +14,8 @@
  */
 
 use Exception;
-use JBR\Exceptionist\Reason\InvalidityReason;
-use JBR\Exceptionist\Scope\PropertyScope;
+use JayBeeR\Exceptionist\Reason\InvalidityReason;
+use JayBeeR\Exceptionist\Scope\PropertyScope;
 
 /**
  *

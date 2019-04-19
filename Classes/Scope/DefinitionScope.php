@@ -1,4 +1,4 @@
-<?php namespace JBR\Exceptionist\Scope;
+<?php namespace JayBeeR\Exceptionist\Scope;
 
 /*
  * This file is part of the TYPO3 CMS project.

@@ -1,13 +1,14 @@
 {
     "name": "nimayneb/exceptionist",
+    "license": "GPL-3.0",
     "description": "Exceptionist - Throwing meaningful and semantic exceptions with interfaces",
     "minimum-stability": "stable",
 
     "authors": [
         {
             "name": "Jan Runte",
-            "email": "github",
-            "homepage": "https://nimayneb.github.io/",
+            "email": "github-1601@nimayneb.de",
+            "homepage": "https://jaybeer.github.io/",
             "role": "Developer"
         }
     ],
@@ -18,7 +19,7 @@
 
     "autoload": {
         "psr-4": {
-            "JBR\\Exceptionist\\": "Classes/"
+            "JayBeeR\\Exceptionist\\": "Classes/"
         }
     }
 }
